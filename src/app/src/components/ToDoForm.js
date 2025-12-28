@@ -19,6 +19,7 @@ export default function TodoForm({ onAdd, loading }) {
         <input
           id="todo"
           type="text"
+          placeholder="Enter your todo"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
